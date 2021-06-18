@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+        <title>Pagina da Taiana</title>
+      
+    </head>
+
+
+    <body>
+        <input type="text" name="texto" id="texto">
+        <button id="but">Aplicar Titulo</button>
+
+        <script type="text/javascript">
+          document.addEventListener('DOMContentLoaded',
+              function pri() {
+                   document.querySelector('#but').addEventListener('click', 
+              function seg () {
+              let text = document.querySelector('#texto').value;
+              document.title = text;
+              });
+              });
+
+
+        </script>
+
+    </body>
+
+</html>
